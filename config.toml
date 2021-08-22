@@ -8,8 +8,8 @@ googleAnalytics = ""
 
 [menus]
 [[menus.nav]]
-  name = "About"
-  url = "/about"
+  name = "Home"
+  url = "/"
   
 [[menus.nav]]
   name = "Blogs"
