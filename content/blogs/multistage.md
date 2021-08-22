@@ -1,7 +1,7 @@
 ---
 title: "Multistage Docker Builds"
 date: 2021-08-21T20:33:47+07:00
-draft: true
+draft: false
 ---
 
 So recently I was working on a relatively small Golang microservice. It consumed ZeroMQ streams, performed some calculations on the timeseries data & exposed standarized data via a web API.

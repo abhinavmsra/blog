@@ -6,5 +6,11 @@
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "emulators": {
+    "hosting": {
+      "host": "localhost",
+      "port": "8080"
+    }
   }
 }
