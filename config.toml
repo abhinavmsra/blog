@@ -1,28 +1,30 @@
+author = 'Abhinav Mishra'
 baseURL = 'https://abhi.dev'
 languageCode = 'en-us'
 title = 'My Blog'
-theme = "charaka-hugo-theme"
-copyright = "&copy; <a href=\"https://github.com/abhinavmsra\">Abhinav Mishra</a> 2021"
+theme = "cupper-hugo-theme"
 disqusShortname = ""
 googleAnalytics = ""
 
+[menus]
+[[menus.nav]]
+  name = "About"
+  url = "/about"
+  
+[[menus.nav]]
+  name = "Blogs"
+  url = "/blogs"
+
 [params]
-
-[params.highlight]
-  style = "zenburn"
-
-[[params.social]]
-  url = "about.html"
-  fa_icon = "fas fa-info" 
+moveFooterToHeader = true
+logoAlt = "avatar"
+customCss = ["/css/overrides.css"]
+customJs = ["https://kit.fontawesome.com/14923bcc9a.js"]
 
 [[params.social]]
   url = "https://github.com/abhinavmsra"
-  fa_icon = "fab fa-github"
-
-[[params.social]]
-  url = "https://www.linkedin.com/in/abhinavmsra/"
-  fa_icon = "fab fa-linkedin-in"
+  fa_icon = "fab fa-github fa-lg"
 
 [[params.social]]
   url = "https://twitter.com/abhinavmsra"
-  fa_icon = "fab fa-twitter"
+  fa_icon = "fab fa-twitter fa-lg"
