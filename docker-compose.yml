@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - 127.0.0.1:3000:1313
+    command: hugo server --debug --verbose --bind 0.0.0.0
